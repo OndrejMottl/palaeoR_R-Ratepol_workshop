@@ -227,6 +227,7 @@ example_01_roc <-
     DC = "chisq",
     Working_Units = "MW",
     bin_size = 500,
+    time_standardisation = 500,
     standardise = TRUE,
     N_individuals = 150,
     rand = randomisations) 

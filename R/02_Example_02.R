@@ -48,6 +48,7 @@ scenario_1 <-
     smooth_method = "none",
     DC = "chisq",
     Working_Units = "levels",
+    time_standardisation = 500,
     standardise = FALSE) 
 
 RRatepol::fc_plot_RoC_sequence(
@@ -72,6 +73,7 @@ scenario_2 <-
     smooth_N_points = 9,
     DC = "chisq",
     Working_Units = "levels",
+    time_standardisation = 500,
     standardise = FALSE) 
 
 RRatepol::fc_plot_RoC_sequence(
@@ -98,6 +100,7 @@ scenario_3 <-
     smooth_N_points = 9,
     DC = "chisq",
     Working_Units = "levels",
+    time_standardisation = 500,
     standardise = TRUE,
     N_individuals = 150,
     rand = n_rand) 
@@ -124,7 +127,7 @@ scenario_4 <-
     smooth_N_points = 9,
     DC = "chisq",
     Working_Units = "levels",
-    bin_size = 500,
+    time_standardisation = 500,
     standardise = TRUE,
     N_individuals = 150,
     rand = n_rand) 
@@ -152,6 +155,7 @@ scenario_5 <-
     DC = "chisq",
     Working_Units = "bins",
     bin_size = 500,
+    time_standardisation = 500,
     standardise = TRUE,
     N_individuals = 150,
     rand = n_rand) 
@@ -179,6 +183,7 @@ scenario_6 <-
     DC = "chisq",
     Working_Units = "MW",
     bin_size = 500,
+    time_standardisation = 500,
     Number_of_shifts = 3,
     standardise = TRUE,
     N_individuals = 150,
@@ -190,7 +195,3 @@ RRatepol::fc_plot_RoC_sequence(
   Roc_threshold = max(scenario_6$ROC_up),
   Peaks = FALSE)+
   theme_custom()
-
-
-
-
