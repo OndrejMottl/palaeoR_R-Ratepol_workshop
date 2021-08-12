@@ -5,7 +5,7 @@ Analysis in Palaeoecology
 
 See the slides at <http://bit.ly/R-ratepol-workshop-slides>
 
-Preprint about R-Ratepol package: <http://bit.ly/R-Ratepol-preprint>
+Paper in RPP about the R-Ratepol package: <https://bit.ly/RoC-RPP>
 
 GitHub with R-Ratepol: <https://bit.ly/R-Ratepol-package>
 
